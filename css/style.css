@@ -14,6 +14,11 @@
     background-color: #a0a0a0;
 }
 
+ul.contenedor__items {
+    background-color: #dce230;;
+    color: #000000;
+}
+
 header {
     grid-area: header;
     background-color: #808080;
@@ -32,7 +37,7 @@ section#titulo{
     align-items: center;
     background: #dce230;
 }
-}
+
 section#imagen{
     grid-area: imagen;
 }
@@ -48,6 +53,7 @@ nav ul {
 .contenedor__items li a {
     transition-property: background;
     transition-duration: 1s;
+    color: #000000;
 }
 .contenedor__items:hover {
     transform: scale(1.2);
@@ -106,6 +112,11 @@ footer{
     grid-area: footer;
     background: #808080;
     
+}
+.footer_foto {
+    margin-top: 1218%;
+    /* height: 134px;
+    display: flex; */
 }
 
 footer img {
