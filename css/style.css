@@ -19,6 +19,10 @@ ul.contenedor__items {
     color: #000000;
 }
 
+.row{
+    margin-top: 30px;
+}
+
 header {
     grid-area: header;
     background-color: #808080;
@@ -142,6 +146,26 @@ li{
 .redes{
     height: 75px;
 }
+.redes_contacto{
+    height: 87px;
+    margin-top: -23px;
+}
+.redes_contacto ul{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: -25px;
+        margin-top: 12px;
+    }
+    .redes_contacto h4 {        
+            height: 1px;
+            margin-top: -23px;
+            margin-top: 14%;
+            margin-bottom: -15px;
+        }
+    
+
+
 
 footer h4{
     height: 5px;
