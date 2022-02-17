@@ -40,6 +40,7 @@ section#titulo{
     justify-content: center;
     align-items: center;
     background: #dce230;
+    height: 175px;
 }
 
 section#imagen{
@@ -50,7 +51,6 @@ nav ul {
     list-style: none;
     justify-content: center;
     align-items: flex-start;  
-    background-color: #a0a0a0;
     font-size: 1.5rem;
      
 }
@@ -79,10 +79,9 @@ a {
 }
 
 .logo {
-width: 123px;
-border-radius: 70%;
-border: #F2F831;
-height: 120px;
+    width: 93px;
+    border-radius: 70%;
+    height: 69px;
 }
 
 img.logo {
@@ -150,6 +149,7 @@ li{
     height: 87px;
     margin-top: -23px;
 }
+
 .redes_contacto ul{
         display: flex;
         justify-content: flex-start;
@@ -163,9 +163,13 @@ li{
             margin-top: 14%;
             margin-bottom: -15px;
         }
+        #footer{
+            margin-top: 80vh;
+        }
     
-
-
+.body_fotos{
+    background-color: #000000;
+}
 
 footer h4{
     height: 5px;
@@ -184,6 +188,16 @@ footer h4{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+#galeria .col-md-4{
+padding: 25px;
+}
+#galeria img{
+    width: 100%;
+    height: 250px;
+}
+#galeria img:hover{
+    border: 5px solid #dce230;
 }
 
 
