@@ -1,0 +1,40 @@
+@import "./fracciones/reset";
+@import "./fracciones/header";
+@import "./fracciones/cabecera";
+@import "./fracciones/footer";
+@import "./fracciones/galeria";
+@import "./fracciones/menu";
+@import "./fracciones/body";
+@import "./fracciones/responsive";
+
+ul.contenedor__items {
+    background-color: #dce230;;
+    color: #000000;
+    .contenedor__items li a {
+        transition-property: background;
+        transition-duration: 1s;
+        color: #000000;
+    }
+    .contenedor__items:hover {
+        transform: scale(1.2);
+        transition: 1s;
+    }
+    .contenedor__items li a:hover{
+        transform: scale(2);
+    }
+}
+
+
+
+
+
+    
+
+    
+
+      
+
+
+
+
+

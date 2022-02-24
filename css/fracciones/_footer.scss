@@ -1,0 +1,37 @@
+.redes{
+    height: 75px;
+    .redes ul{
+        display: flex;
+        justify-content: flex-start;
+        padding: 5px;
+    }
+}
+
+    .redes_contacto{
+        height: 87px;
+        margin-top: -23px;
+        &_contacto ul{
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                margin-left: -25px;
+                margin-top: 12px;
+            }
+           
+            &_contacto h4 {        
+                    height: 1px;
+                    margin-top: -23px;
+                    margin-top: 14%;
+                    margin-bottom: -15px;
+                    }
+                    footer img{
+                        display: flex;
+                        width: 30px;
+                        height: 30px;
+                    }
+                    .pago ul{
+                        display: flex;
+                        justify-content: flex-start;
+                        padding-top: 0;
+                    }
+    }
