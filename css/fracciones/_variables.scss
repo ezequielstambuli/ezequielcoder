@@ -12,3 +12,14 @@ $oscuro: #000000;
         padding-left: 5px;
         height: 35px;
 }
+
+$font: (
+    h1: 5rem,
+    h3: 1,25rem,
+    h5: 2rem
+);
+$h1: map-get($map: $font, h1 );
+
+h1{
+    font-size: $h1;
+}
