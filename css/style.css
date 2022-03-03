@@ -25,9 +25,9 @@ section#titulo{
     height: 175px;
 }
 
-section#imagen{
+/* section#imagen{
     grid-area: imagen;
-}
+} */
 nav ul {
     display: flex;
     list-style: none;
@@ -88,18 +88,8 @@ h1 {
 }
 
 
-footer img{
-    display: flex;
-    width: 30px;
-    height: 30px;
-}
 
 
-.pago ul{
-    display: flex;
-    justify-content: flex-start;
-    padding-top: 0;
-}
 li{
     list-style: none;
     padding-right: 5px;
@@ -136,10 +126,6 @@ li{
     background-color: #000000;
 }
 
-footer h4{
-    height: 5px;
-}
-
 #menu ul {
     display: flex;
     gap: 50px;
@@ -169,6 +155,16 @@ footer h4{
 }
 
 
+footer img{
+    display: flex;
+    width: 30px;
+    height: 30px;
+}
+.pago ul{
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 0;
+}
 
 
 
